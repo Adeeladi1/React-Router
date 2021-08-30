@@ -1,0 +1,103 @@
+h1 {
+    text-align: center;
+  }
+  .item-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    
+  }
+  body{
+    /* background-color: black; */
+  }
+  .card {
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  img {
+    height: 100px;
+    width: auto;
+  }
+  .add-cart{
+    display: flex;
+    width: 100%;
+    
+  }
+  /* PRODUCT PAGE STYLES */
+  .product-container {
+    display: flex;
+    
+    width: 60%;
+    justify-content: space-evenly;
+    padding: 6em 6em 2.5em 6em;
+    gap: 6em;
+  }
+  .prod-image {
+    width: 300px;
+    height: auto;
+  }
+  .brand {
+    text-align: left;
+  }
+
+  .right-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    
+  }
+
+  .mid-add{
+   
+    flex-direction: column;
+    
+    width: 20rem;
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  .price-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    
+  }
+  .right-price{
+    float: right;
+  }
+  .back {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: crimson;
+    transform:scale3d();
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+ .main-pro{
+   width:60%;
+   display: flex;
+   margin-left: 20rem;
+   margin-top:1rem;
+ }
